@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.2.2] - 2022-02-17
+
+- Try to make it available for HomeKit (non-HA) to connect to
+
 ## [0.1.2] - 2021-10-12
 
 - Persistent data fixes

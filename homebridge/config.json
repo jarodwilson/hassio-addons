@@ -1,6 +1,6 @@
 {
   "name": "Homebridge",
-  "version": "0.1.2.1",
+  "version": "0.1.2.2",
   "stage": "experimental",
   "slug": "homebridge",
   "description": "Lightweight HomeKit API implementation with plugin support",
@@ -8,17 +8,11 @@
   "ports": {
     "8581/tcp": null,
     "51826/tcp": null,
-    "53138/tcp": null,
-    "38899/udp": null,
-    "38900/tcp": null,
-    "38900/udp": null
+    "53138/tcp": null
   },
   "ports_description": {
     "8581/tcp": "Homebridge UI",
     "51826/tcp": "HomeKit Bridge",
-    "53138/tcp": "Homebridge HAP",
-    "38899/udp": "WiZ Plugin bcast",
-    "38900/tcp": "WiZ Light callback (tcp)",
-    "38900/udp": "WiZ Light callback (udp)"
+    "53138/tcp": "Homebridge HAP"
   }
 }
