@@ -6,9 +6,13 @@
   "description": "Lightweight HomeKit API implementation with plugin support",
   "arch": ["armhf", "armv7", "aarch64", "amd64"],
   "ports": {
-    "8581/tcp": null
+    "8581/tcp": null,
+    "51826/tcp": null,
+    "38899/udp": null
   },
   "ports_description": {
-    "8581/tcp": "Homebridge UI"
+    "8581/tcp": "Homebridge UI",
+    "51826/tcp": "HomeKit Bridge",
+    "38899/udp": "WiZ Plugin"
   }
 }
